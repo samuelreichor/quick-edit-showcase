@@ -4,7 +4,7 @@
   "require": {
     "craftcms/cms": "5.5.10",
     "putyourlightson/craft-blitz": "^5.9.9",
-    "samuelreichor/craft-quick-edit": "^0.0",
+    "samuelreichor/craft-quick-edit": "dev-main",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -28,10 +28,6 @@
     ]
   },
   "repositories": [
-    {
-      "type": "path",
-      "url": "plugins/craft-quick-edit"
-    },
     {
       "type": "composer",
       "url": "https://composer.craftcms.com",
