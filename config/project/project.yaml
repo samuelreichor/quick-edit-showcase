@@ -1,0 +1,144 @@
+dateModified: 1745780343
+email:
+  fromEmail: samuelreichor@gmail.com
+  fromName: cp-edit-showcase
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0b856bfa-7241-474a-bbd8-18c2c03321b5: Home # Home
+    19d6b378-8346-4ed5-acc9-4f174a58e04a: Home # Home
+    32ad4f6d-3553-4c3d-8cb9-4868f0544cca: Faqs # Faqs
+    33dc3560-eb15-49fe-9ab6-772ccf4576c5: cp-edit-showcase # cp-edit-showcase
+    5689cabb-f574-4961-99bc-83c95a194c5a: Editor # Editor
+    0354643a-5af0-4930-87c0-ce0cfeb0cd1f: Faqs # Faqs
+    ab499903-7a01-4d09-b0da-76a9b4f4385c: DE # DE
+    e5647779-c8f7-4286-9e2a-0c5d533d6ad5: News # News
+    efcd8f45-b324-4db8-ab75-e28b60d5325e: News # News
+    f585159c-4950-4889-a28d-c7271dae58a5: EN # EN
+plugins:
+  blitz:
+    edition: standard
+    enabled: true
+    licenseKey: BLR62JQHF9WZ466SCTPC0OW3
+    schemaVersion: 5.10.0
+    settings:
+      apiKey: ''
+      cacheControlHeader: 'public, s-maxage=31536000, max-age=0'
+      cacheControlHeaderExpired: 'public, s-maxage=5, max-age=0'
+      cacheDuration: null
+      cacheGeneratorSettings:
+        __assoc__:
+          -
+            - concurrency
+            - '3'
+      cacheGeneratorType: putyourlightson\blitz\drivers\generators\HttpGenerator
+      cacheNonHtmlResponses: false
+      cachePurgerType: putyourlightson\blitz\drivers\purgers\DummyPurger
+      cacheStorageSettings:
+        __assoc__:
+          -
+            - folderPath
+            - '@webroot/cache/blitz'
+          -
+            - compressCachedValues
+            - ''
+      cacheStorageType: putyourlightson\blitz\drivers\storage\FileStorage
+      cachingEnabled: true
+      debug: true
+      defaultCacheControlHeader: no-store
+      deployerType: putyourlightson\blitz\drivers\deployers\DummyDeployer
+      detectSsiEnabled: true
+      driverJobBatchSize: 100
+      driverJobPriority: 100
+      esiEnabled: false
+      excludedQueryStringParams:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - queryStringParam
+              - gclid
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - queryStringParam
+              - fbclid
+      excludedUriPatterns:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - uriPattern
+              - /news/news-number-1
+      generatePagesWithQueryStringParams: true
+      hintsEnabled: false
+      includedQueryStringParams:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - queryStringParam
+              - '.*'
+      includedUriPatterns:
+        -
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - uriPattern
+              - '*'
+      injectScriptEvent: DOMContentLoaded
+      injectScriptPosition: 3
+      integrations:
+        - putyourlightson\blitz\drivers\integrations\CommerceIntegration
+        - putyourlightson\blitz\drivers\integrations\SeomaticIntegration
+      maxRetryAttempts: 10
+      maxUriLength: 255
+      mutexTimeout: 1
+      onlyCacheLowercaseUris: false
+      outputComments: true
+      purgeAssetImagesWhenChanged: true
+      queryStringCaching: 0
+      queueJobTtr: 300
+      refreshCacheAutomaticallyForGlobals: true
+      refreshCacheEnabled: true
+      refreshCacheJobPriority: 10
+      refreshCacheWhenElementMovedInStructure: true
+      refreshCacheWhenElementSavedNotLive: false
+      refreshCacheWhenElementSavedUnchanged: false
+      refreshExpiredCacheAfterVisit: true
+      refreshMode: 3
+      sendPoweredByHeader: true
+      ssiEnabled: false
+      ssiTagFormat: '<!--#include virtual="{uri}" -->'
+      trackElementQueries: true
+      trackElements: true
+  craft-quick-edit:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  quick-edit:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      isGlobalDisabled: false
+      isStandalonePreview: false
+      linkText: Text
+      targetBlank: false
+system:
+  edition: pro
+  live: true
+  name: cp-edit-showcase
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles

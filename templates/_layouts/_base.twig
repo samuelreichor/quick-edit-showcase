@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+<nav>
+  <ul>
+    <li>
+      <a href="/">
+        Home (multisite)
+      </a>
+    </li>
+    <li>
+      <a href="/news/news-number-1">
+        News Article 1 (uncached)
+      </a>
+    </li>
+    <li>
+      <a href="/faqs/faq-1">
+        FAQ 1 (no multisite)
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="/">
+        EN
+      </a>
+    </li>
+    <li>
+      <a href="/de">
+        DE
+      </a>
+    </li>
+  </ul>
+</nav>
+{% block body %}
+{% endblock %}
+</body>
+</html>

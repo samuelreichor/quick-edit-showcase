@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: en
+hasUrls: true
+language: en-US
+name: EN
+primary: true
+siteGroup: 33dc3560-eb15-49fe-9ab6-772ccf4576c5 # cp-edit-showcase
+sortOrder: 1

@@ -1,0 +1,35 @@
+description: null
+handle: editor
+name: Editor
+permissions:
+  - accesscp
+  - administrateusers
+  - 'assignusergroup:5689cabb-f574-4961-99bc-83c95a194c5a' # Editor
+  - 'assignusergroup:c55ca0a9-4bd6-409b-afd8-c1884dafecd0'
+  - assignuserpermissions
+  - 'createentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'createentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'deleteentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'deleteentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'deletepeerentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'deletepeerentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'deletepeerentrydrafts:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'deletepeerentrydrafts:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - deleteusers
+  - editusers
+  - impersonateusers
+  - moderateusers
+  - registerusers
+  - 'saveentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'saveentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'savepeerentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'savepeerentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'savepeerentrydrafts:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'savepeerentrydrafts:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'viewentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'viewentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'viewpeerentries:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'viewpeerentries:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - 'viewpeerentrydrafts:32ad4f6d-3553-4c3d-8cb9-4868f0544cca' # Faqs
+  - 'viewpeerentrydrafts:e5647779-c8f7-4286-9e2a-0c5d533d6ad5' # News
+  - viewusers

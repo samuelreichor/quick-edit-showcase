@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 0354643a-5af0-4930-87c0-ce0cfeb0cd1f # Faqs
+handle: faqs
+maxAuthors: 1
+name: Faqs
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f585159c-4950-4889-a28d-c7271dae58a5: # EN
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry.twig
+    uriFormat: 'faqs/{slug}'
+structure:
+  maxLevels: null
+  uid: 1bfd1d38-4799-4c36-ae8c-be6d0b63f06f
+type: structure
